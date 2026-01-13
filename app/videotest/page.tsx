@@ -8,20 +8,20 @@ export default function VideoTestPage() {
         <iframe 
             width="560" 
             height="315" 
-            src="https://www.youtube.com/embed/elc2GkOc9Xw?si=msKxPd5bosORJUzG" 
+            src="" 
             title="YouTube video player" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             referrerPolicy="strict-origin-when-cross-origin" 
             allowFullScreen
             />
         <ReactPlayer 
-            src="https://www.youtube.com/watch?v=elc2GkOc9Xw&si=msKxPd5bosORJUzG" 
+            src="" 
             controls 
             width={1280}
             height={720}
         />
         <YouTubeEmbed 
-            videoid="elc2GkOc9Xw" 
+            videoid="" 
             width={1280}
             height={720}
         />
